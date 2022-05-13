@@ -1,7 +1,17 @@
+:root {
+  --color-primary: #fb7413;
+  --color-white: #ffffff;
+  --color-medium-grey: #7c8798;
+  --color-dark-blue: #252d37;
+  --color-very-dark-blue: #121417;
+  --shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
 body{
     margin: 0;
     padding: 0;
-    background: url(aqua-d9b59c89.png) no-repeat;
+    background-color: var(--color-very-dark-blue);
     background-size: cover;
   }
   .box{
@@ -33,6 +43,37 @@ body{
     text-align: justify;
   }
   ul{
+    margin: 0;
+    padding: 0;
+  }
+  .box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+  }
+  .box li a{
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+  }
+  .box li a:hover{
+    color: #b9b9b9;
+  }
+
+  section#home div.main .hlt {
+    display: flex;
+    color: #b3b9b6;
+    font-weight: 500 !important;
+    align-items: center;
+    margin-bottom: -20px;
+  }
+  
+  section#home div.main .hlt p {
+    font-weight: 400 !important;
+    font-size: 14px;
+  }
+  
     margin: 0;
     padding: 0;
   }
